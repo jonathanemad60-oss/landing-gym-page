@@ -1,0 +1,514 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.clear{
+    clear: both;
+}
+
+.hero{
+    width: 100%;
+    margin: 80px 0;
+    float: left;
+}
+
+.one{
+    width: 50%;
+    float: left;
+}
+
+.one h1{
+    font-size: 48px;
+    color: black;
+    margin-bottom: 24px;
+    
+}
+.one p{
+ color: black;
+ font-size: 20px;
+ margin-bottom: 32px;   
+}
+.one button{
+    font-size: 18px;
+    padding: 16px 32px;
+    border-radius: 6px;
+    border: 0.5px solid black;
+    font-weight: bold;
+    background-color: white;
+}
+
+.one .start{
+    background-color: #000;
+    color: white;
+    margin-right:16px ;
+}
+
+.two img{
+    width: 385px;
+    border-radius: 15px;
+}
+.section{
+    text-align: center;
+
+}
+.section h2{
+    font-size:36px;
+    color: #000;
+}
+.section p{
+    font-size: 20px;
+    color: #000;
+    margin: 30px auto 60px;
+    width: 50%;
+    
+}
+.cards{
+    margin-top: 26px;
+}
+
+.card{
+    width: 350px;
+    margin:0px 10px 70px ;
+    height: 230px;
+    padding: 32px;
+    float: left;
+    border-radius: 15px;
+}
+
+.card h3{
+    color: #000;
+    font-size: 20px;
+    margin: 0px 0px 16px;
+    text-align: center;
+}
+.card p{
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+}
+.card .shap{
+    border-radius:5px;
+    text-align: center;
+    margin: 0 auto 16px;
+}
+.card .shap .shap-1 , .shap-3{
+    background-color:white;
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+    border-radius: 2.5px;
+    text-align: center;
+}
+.card .shap .shap-2{
+    background-color:white;
+    width: 16px;
+    height: 16px;
+    margin: 5px;
+    border-radius: 50px;
+}
+
+ .cards .blue{
+    background-color: rgb(190, 219, 255);
+}
+ .cards .green{
+    background-color: oklch(0.95 0.05 163.6);
+}
+ .cards .purple{
+    background-color: oklch(0.95 0.03 307.26);
+}
+
+.blue .shap{
+    background-color: blue;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+
+.green .shap{
+    background-color:green;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+.purple .shap{
+    background-color:purple;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+}
+
+
+
+.img{
+    width: 50%;
+}
+
+.more{
+    width: 50%;
+    float: left;
+}
+
+
+.info img{
+    width: 500px;
+    height: 320px;
+    float: left;
+    margin-right:20px ;
+    border-radius: 5px;
+}
+.info .more{
+    color: #000;
+    font-size: 30px;
+    margin: 0px 0px 24px;
+}
+.group{
+    border-left: #000 solid 5px;
+    margin: 15px;
+    padding: 8px;
+
+}
+.info .group h5{
+color: #000;
+font-size: 20px;
+margin: 0px 0px 8px;
+}
+.info .group p{
+    color:#000;
+    font-size: 16px;
+}
+
+.h5 {
+    text-align: center;
+    color: #000;
+}
+.wour {
+    margin-bottom: 30px;
+}
+.wour h5{
+    font-size: 36px;
+    margin: 0px 0px 24px;
+    text-align: center;
+}
+.wour p{
+    font-size: 20px;
+    text-align: center;
+    margin-bottom:  30px; 
+}
+.members .david{
+    border: blue 1px solid;
+    height: fit-content;
+    width: 350px;
+    padding: 32px;
+    background-color: oklch(0.97 0.01 254.75);
+    text-align: center;
+    float: left;
+    margin: 10px 0px 64px 20px;
+    border-radius: 5px;
+}
+.table{
+    margin-bottom: 24px;
+}
+
+.david .table img{
+    margin: 0px 16px 0px 0px;
+    border-radius: 50%;
+    width: 60px ;
+    float: left;
+}
+
+.table h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: left;
+
+}
+.table p{
+    font-size: 16px;
+    text-align: left;
+}
+.members .mike{
+    border:green 1px solid;
+    height: fit-content;
+    width: 350px;
+    padding: 32px;
+    background-color: oklch(0.98 0.02 166.03);
+    text-align: center;
+    float: left;
+    margin: 10px 0px 64px 20px;
+    border-radius: 5px;
+}
+.mike .table{
+    margin-bottom: 24px;
+}
+
+.mike .table img{
+    margin: 0px 16px 0px 0px;
+    border-radius: 50%;
+    width: 60px ;
+    float: left;
+}
+
+.mike .table h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: left;
+
+}
+.mike .table p{
+    font-size: 16px;
+    text-align: left;
+}
+.members .james{
+    border:purple 1px solid;
+    height: fit-content;
+    width: 350px;
+    padding: 32px;
+    background-color:#faf5ff;
+    text-align: center;
+    float: left;
+    margin: 10px 0px 64px 20px;
+    border-radius: 5px;
+}
+.james .table{
+    margin-bottom: 24px;
+}
+
+.james .table img{
+    margin: 0px 16px 0px 0px;
+    border-radius: 50%;
+    width: 60px ;
+    float: left;
+}
+
+.james .table h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: left;
+
+}
+.james .table p{
+    font-size: 16px;
+    text-align: left;
+}
+.number {
+    float: left;
+    background-color:rgb(224, 224, 234) ;
+    border: 1px solid oklch(0.95 0.01 248.12) ;
+    border-radius: 5px;
+    padding: 48px;
+    text-align: center;
+    width: 100%;
+    height: 170PX;
+}
+.Active{
+    float: left;
+    text-align: center;
+    margin-inline:70px; ;
+}
+.Active  h4{
+    color: #000;
+    font-size: 36px;
+    margin: 0px 0px 8px 0px;
+}
+.Active span {
+    color: rgb(74, 85, 101);
+    font-size: 16px;
+    
+}
+
+
+.form-section {
+    margin-top: 50px;
+}
+.title {
+    margin-bottom: 48px;
+    text-align: center;
+}
+.form-section h5 {
+    color: #000;
+    font-size: 36px;
+    margin-bottom: 24px;
+}
+.form-section p {
+    color:oklch(44.6% .03 256.802) ;
+    font-size: 20px;
+    max-width: 672px;
+    margin: 0 auto;
+}
+.form-container {
+    background-color: rgb(249, 250, 251);
+    padding: 48px;
+    width: 768px;
+    margin: 0px auto;
+    border-radius: 16px;
+}
+.form-container input,
+select,
+textarea{
+    font-size: 18px;
+    padding: 16px 24px;
+    border: 1px solid rgb(209, 213, 219);
+    border-radius: 8px;
+    width: 100%;
+    background-color: transparent;
+    margin-bottom: 24px;
+}
+.form-container .name {
+    float: left;
+    width: calc(50% - 24px);
+}
+.form-container label{
+    color: oklch(37.3% .034 259.733);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    display: block;
+}
+
+.form-container textarea{
+    resize: none;
+    height: 96px;
+}
+
+.form-container .btn{
+    background-color: #000;
+    color: white;
+}
+
+.form-container p{
+    color: oklch(44.6% .03 256.802);
+    font-size: 14px;
+    text-align: center;
+}
+
+.footer{
+    background-color: rgb(17, 24, 38);
+    /* width: initial; */
+    width: 100%;
+    height: fit-content;
+    padding: 80px 24px;
+
+
+}
+/* .links{
+    
+} */
+
+.footer p {
+   color:  rgb(134, 152, 179);
+
+}
+.footer a {
+   color:  rgb(134, 152, 179);
+
+}
+
+
+
+.gem{
+    width: calc(50% - 20px);
+    float: left;
+    margin-right: 20px;
+}
+
+.gem h3{
+    font-size: 30px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.gem p{
+    margin-bottom: 16px;
+}
+
+.gem a{
+    text-decoration: none;
+    float: left;
+    margin-right: 20px;
+
+}
+
+.gem li{
+    list-style: none;
+}
+
+.QuickLinks{
+    width: calc(25% - 4opx);
+    float: left;
+    margin-right: 40px;
+
+}
+.QuickLinks h4{
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: white;
+}
+.QuickLinks a{
+    text-decoration: none;
+    margin-right: 20px;
+
+
+}
+.QuickLinks li{
+    list-style: none;
+    margin-bottom: 15px;
+
+
+}
+
+.Contact{
+    width: 25%;
+    float: left;
+
+}
+
+.Contact h4{
+    font-size: 20px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.aboutmy{
+    margin-bottom: 12px;
+}
+
+.aboutmy h5{
+    color: white;
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+
+.copyright{
+    padding-top: 32px;
+    border-top:1px solid gray ;
+    width: 100%;
+    height: fit-content;
+
+}
+
+.copyright p{
+    float: left;
+    margin-right: auto;
+}
+
+.copyright a{
+    text-decoration: none;
+    margin-right: 20px;
+    float: right;
+}
+
+.copyright li{
+    list-style: none;
+    
+
+    
+}
